@@ -1,4 +1,4 @@
-﻿namespace LRS.Catalog.Api.Entities
+﻿namespace LRS.Catalog.Api.Domain.Entities
 {
     public class CatalogType
     {

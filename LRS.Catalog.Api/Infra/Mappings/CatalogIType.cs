@@ -1,4 +1,4 @@
-﻿using LRS.Catalog.Api.Entities;
+﻿using LRS.Catalog.Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

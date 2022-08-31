@@ -1,4 +1,4 @@
-﻿using LRS.Catalog.Api.Entities;
+﻿using LRS.Catalog.Api.Domain.Entities;
 using LRS.Catalog.Api.Infra.Mappings;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,7 +6,7 @@ namespace LRS.Catalog.Api.Infra.Context
 {
     public class CatalogContext : DbContext
     {
-        public CatalogContext(DbContextOptions<CatalogContext> options)
+        public CatalogContext(DbContextOptions<CatalogContext> options) : base(options)
         {
 
         }
