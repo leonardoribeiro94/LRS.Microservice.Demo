@@ -11,6 +11,9 @@ namespace LRS.Catalog.Api.Ioc
         {
             service.AddScoped<ICatalogItemRepository, CatalogItemRepository>();
             service.AddScoped<ICatalogItemService, CatalogItemService>();
+
+            
+            //service.AddScoped<IMappers, mappers>();
         }
     }
 }
